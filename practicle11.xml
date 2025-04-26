@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="practicle11.css"?>
+<students>
+    <student>
+        <id>101</id>
+        <name>Aqsa Saraff</name>
+        <age>19</age>
+        <department>Computer Science</department>
+        <email>aqsa@example.com</email>
+    </student>
+    <student>
+        <id>102</id>
+        <name>Mrunal Bhakare</name>
+        <age>19</age>
+        <department>Computer Science</department>
+        <email>mrunal@example.com</email>
+    </student>
+    <student>
+        <id>103</id>
+        <name>Sanika Chougule</name>
+        <age>19</age>
+        <department>Information Technology</department>
+        <email>sanika@example.com</email>
+    </student>
+</students>

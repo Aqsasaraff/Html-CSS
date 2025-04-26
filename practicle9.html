@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        margin: 10px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+    }
+    .container{
+        border: 4px solid aliceblue;
+        margin: 0 70px;
+        width: 550px;
+        padding: 15px 20px;
+        border-radius: 20px;    
+        font-size: 20px;
+        background-color: aliceblue;
+        box-shadow: 4px 4px 10px 0px rgb(62, 61, 61);
+        margin-bottom: 10px;
+    }
+    .field{
+        width: 100%;  
+        font-size: 18px;
+        margin-top: 5px;
+    }
+    button{
+        margin-left: 40%;
+        padding: 10px 25px;
+        font-size: 18px;
+        background-color:rgb(146, 186, 221);
+    }
+</style>
+
 <body>
-    <h1>Employee Registration</h1>
-    <form action="">
-        First Name: <input type="text"><br> <br>
-        Last Name: <input type="text" ><br><br>
-        Email: <input type="email"> <br> <br>
+    <h1>Assignment No. 9</h1>
+    <h2>Employee Registration Form</h2> <br>
+    <div class="container">
+        <form action="">
+            First Name <input type="text" class="field"> <br> <br>
+            Last Name <input type="text" class="field"><br><br>
+            Email <input type="email" class="field"> <br> <br>
+            Phone Number <input type="number" class="field"> <br> <br>
+            Employee ID<input type="text" class="field"><br><br>
+            Gender <br>
+            <input type="radio" name="Gender" value="Male" id="Gender"> Male<br>
+            <input type="radio" name="Gender" value="female" id="Gender"> Female<br> <br>
 
-        Gender:  <br>
-      <input type="radio" name="Gender" value="Male" id="Gender">  Male<br>
-        <input type="radio" name="Gender" value="female" id="Gender"> Female<br> <br>
+            Qualification <select class="field">
+                <option>Select</option>
+                <option>B.Tech</option>
+                <option>M.tech</option>
+                <option>Graduate</option>
+                <option>post Graduate</option>
+            </select> <br><br>
 
-        Qualification: <select>
-            <option>select</option>
-            <option>B.Tech</option>
-            <option>M.tech</option>
-         
-        </select><br><br>
-        Phone Number: <input type="number">
-        <br><br>
-        <button>Submit</button>
-    </form>
+            Date of Birth <input type="date" class="field">
+            <br><br>
+
+            <button>Submit</button>
+
+        </form>
+    </div>
 </body>
+
 </html>
